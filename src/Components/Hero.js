@@ -1,17 +1,18 @@
 import React from "react";
+import PhotoGrid from '../images2/image-grid.png';
 
 
 
 export default function Hero() {
   return (
     <div>
-      <div className="hero-container">
-      <img src="../images/photo-grid.png" className="hero--photo" alt="grid"
+      <div className="hero">
+      <img src={ PhotoGrid } className="hero--photo" alt="grid"
       />
       </div>
-      <div className="hero-text">
-        <h1 className="hero-title">Online Experiences</h1>
-        <div className="hero-body">
+      <div className="hero--text">
+        <h1 className="hero--header">Online Experiences</h1>
+        <div className="hero--text">
           <p>Join unique interactive activities led by one-of-a-kind hosts -- all without leaving home.</p>
         </div>
       </div>
