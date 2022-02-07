@@ -1,5 +1,5 @@
 import React from 'react';
-import Star from '../images2/Star1.png';
+import Star from '../images/Star1.png';
 
 
 export default function Card(props) {
@@ -8,7 +8,7 @@ console.log(props)
 
   return (
     <div className="card">
-      <img src={require(`../images2/${props.img}`)}
+      <img src={require(`../images/${props.img}`)}
         className="card--image" 
         alt="card pic" />
       <div className="card--stats">

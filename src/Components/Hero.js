@@ -1,5 +1,5 @@
 import React from "react";
-import PhotoGrid from '../images2/image-grid.png';
+import PhotoGrid from '../images/image-grid.png';
 
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import AirbnbLogo from "../images2/airbnb1.png";
+import AirbnbLogo from "../images/airbnb1.png";
 
 import "../styles.css";
 
